@@ -1,0 +1,53 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+.h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.parent-container{
+    display: flex;
+    background-color: #EFEEEA;
+    justify-content: center;
+    align-items: center;
+    height: 812px;
+}
+
+.container{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 300px;
+    width: 600px;
+    background-color: #003092;
+}
+
+.radio{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hasil{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Tombol{
+    background-color: #00879E;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
